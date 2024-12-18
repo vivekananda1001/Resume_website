@@ -1,5 +1,5 @@
 /* styles.css */
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -93,4 +93,122 @@ footer {
     color: #fff;
     bottom: 0;
     width: 100%;
+}
+ */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e9f5ff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Section */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e9f5ff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Section Content */
+section {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+section ul {
+    list-style-type: square;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Professional Summary */
+section p {
+    text-align: justify;
+}
+
+/* Styling for Contact Info */
+header p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+/* Add a little responsiveness */
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
 }
