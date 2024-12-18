@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume & Bio-Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Resume Builder</h1>
+    </header>
+    <main>
+        <section class="resume">
+            <h1>Resume Form</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position" placeholder="Enter desired position" required><br>
+                
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" placeholder="Write a brief description about yourself" required></textarea><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="buttons">
+                <button onclick="location.href='index.html'">Resume</button>
+                <button onclick="location.href='bio.html'">Bio-Data</button>
+                <button onclick="location.href='info.html'">Info</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Adam Smith</p>
+    </footer>
+</body>
+</html>
